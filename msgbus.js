@@ -2,9 +2,9 @@
 
 var redis = require('redis')
   , colors = require('./colors')
-  , cmd = redis.createClient()
-  , evt = redis.createClient()
-  , evtSubscriptions = []
+  , cmd = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
+, evt = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
+, evtSubscriptions = []
   , cmdSubscriptions = [];
 
 module.exports = {
