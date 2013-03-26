@@ -14,7 +14,8 @@ exports.actions = function(app, options) {
         res.render('index');
     });
         
-    app.get('/allItems.json', function(req, res) { 
+    app.get('/allItems.json', function(req, res) {
+        res.json({item : 'in all items'});
         itemRepo.find(function(err, items) {
             if (err) res.json({});
                 
