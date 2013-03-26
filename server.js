@@ -9,7 +9,7 @@ var express = require('express')
   , socket = require('socket.io')
   , contextEventDenormalizer = require('cqrs-eventdenormalizer').contextEventDenormalizer
   , repository = require('viewmodel').read,
-    logger = require('logger');
+    logger = require('./logger');
 
 // create an configure:
 //
