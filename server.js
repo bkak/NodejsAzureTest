@@ -8,7 +8,8 @@ var express = require('express')
   , colors = require('./colors')
   , socket = require('socket.io')
   , contextEventDenormalizer = require('cqrs-eventdenormalizer').contextEventDenormalizer
-  , repository = require('viewmodel').read;
+  , repository = require('viewmodel').read,
+    logger = require('logger');
 
 // create an configure:
 //
@@ -97,7 +98,7 @@ repository.init(options.repository, function(err) {
         var port = process.env.port || 1337;
         console.log(colors.cyan('\nStarting server on port ' + port));
         server.listen(port);
-        WriteToFile("test");
+        logger.write("test");
     });
 });
 

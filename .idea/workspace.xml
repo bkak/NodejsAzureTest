@@ -23,7 +23,7 @@
       <file leaf-file-name="msgbus.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msgbus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+            <state line="9" column="18" selection-start="324" selection-end="342" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -32,7 +32,16 @@
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="27" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.6304348">
+            <state line="17" column="17" selection-start="495" selection-end="495" vertical-scroll-proportion="0.78532606">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logger.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logger.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="17" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,15 +101,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="496" column="19" selection-start="11266" selection-end="11266" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="colors.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colors.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,6 +137,7 @@
         <option value="$PROJECT_DIR$/host/app/views/index.jade" />
         <option value="$PROJECT_DIR$/host/public/js/app.js" />
         <option value="$PROJECT_DIR$/msgbus.js" />
+        <option value="$PROJECT_DIR$/logger.js" />
         <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
@@ -349,13 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/cqrs-eventdenormalizer/node_modules/node-queue/lib/databases/inMemory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/async/lib/async.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="0" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0">
@@ -454,14 +448,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/msgbus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+        <state line="9" column="18" selection-start="324" selection-end="342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="27" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.6304348">
+        <state line="17" column="17" selection-start="495" selection-end="495" vertical-scroll-proportion="0.78532606">
           <folding />
         </state>
       </provider>
