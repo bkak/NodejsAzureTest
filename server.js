@@ -20,7 +20,7 @@ var app = express()
 
 app.configure(function() {
     app.use(express.bodyParser());
-    app.use(express['static'](__dirname + '/public'));
+    app.use(express['static'](__dirname + '/host/public'));
     
     app.set('view engine', 'jade');
     app.set('views', __dirname + '/host/app/views');
