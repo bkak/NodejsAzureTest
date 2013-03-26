@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'fs' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json D:\GitBkakRepository\NodejsAzureTest\package.json
+6 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\async\package.json
+7 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\cqrs-domain\package.json
+8 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\cqrs-eventdenormalizer\package.json
+9 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\ejs\package.json
+10 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\eventstore.mongoDb\package.json
+11 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\express\package.json
+12 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\jade\package.json
+13 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\moment\package.json
+14 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\mongodb\package.json
+15 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\redis\package.json
+16 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\rule-validator\package.json
+17 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\socket.io\package.json
+18 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\tedious\package.json
+19 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\underscore\package.json
+20 verbose read json D:\GitBkakRepository\NodejsAzureTest\node_modules\viewmodel\package.json
+21 verbose from cache D:\GitBkakRepository\NodejsAzureTest\package.json
+22 verbose readDependencies using package.json deps
+23 verbose cache add [ 'fs', null ]
+24 silly cache add name=undefined spec="fs" args=["fs",null]
+25 verbose parsed url { pathname: 'fs', path: 'fs', href: 'fs' }
+26 silly lockFile 3f4bb586-fs fs
+27 verbose lock fs C:\Users\abc\AppData\Roaming\npm-cache\3f4bb586-fs.lock
+28 silly lockFile 3f4bb586-fs fs
+29 verbose addNamed [ 'fs', '' ]
+30 verbose addNamed [ null, '' ]
+31 silly lockFile a107b96b-fs fs@
+32 verbose lock fs@ C:\Users\abc\AppData\Roaming\npm-cache\a107b96b-fs.lock
+33 silly addNameRange { name: 'fs', range: '', hasData: false }
+34 verbose url raw fs
+35 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+36 verbose url resolved https://registry.npmjs.org/fs
+37 info trying registry request attempt 1 at 13:30:27
+38 http GET https://registry.npmjs.org/fs
+39 http 404 https://registry.npmjs.org/fs
+40 silly registry.get cb [ 404,
+40 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+40 silly registry.get     date: 'Tue, 26 Mar 2013 08:00:32 GMT',
+40 silly registry.get     'content-type': 'application/json',
+40 silly registry.get     'content-length': '52',
+40 silly registry.get     'cache-control': 'must-revalidate' } ]
+41 silly lockFile a107b96b-fs fs@
+42 error 404 'fs' is not in the npm registry.
+42 error 404 You should bug the author to publish it
+42 error 404
+42 error 404 Note that you can also install from a
+42 error 404 tarball, folder, or http url, or git url.
+43 error System Windows_NT 6.1.7600
+44 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "fs"
+45 error cwd D:\GitBkakRepository\NodejsAzureTest
+46 error node -v v0.8.16
+47 error npm -v 1.1.69
+48 error code E404
+49 verbose exit [ 1, true ]

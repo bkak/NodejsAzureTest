@@ -97,5 +97,15 @@ repository.init(options.repository, function(err) {
         var port = process.env.port || 1337;
         console.log(colors.cyan('\nStarting server on port ' + port));
         server.listen(port);
+        WriteToFile("test");
     });
 });
+
+function WriteToFile(text){
+    var fs = require('fs');
+    var stream = fs.createWriteStream("my_file.txt");
+    stream.once('open', function(fd) {
+        stream.write(text + "\n");
+        stream.end();
+    });
+}
