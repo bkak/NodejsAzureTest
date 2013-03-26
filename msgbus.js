@@ -1,9 +1,9 @@
 // the hub encapsulates functionality to send or receive messages from redis.
 
-var redis = require('redis')
-  , colors = require('./colors')
-  , cmd = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
-, evt = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
+//var redis = require('redis')
+ var colors = require('./colors')
+ // , cmd = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
+//, evt = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
 , evtSubscriptions = []
   , cmdSubscriptions = [];
 
@@ -12,13 +12,13 @@ module.exports = {
     emitCommand: function(command) {
         console.log(colors.blue('\nhub -- publishing command ' + command.command + ' to redis:'));
         console.log(command);
-        cmd.publish('commands', JSON.stringify(command));
+//        cmd.publish('commands', JSON.stringify(command));
     },
 
     onCommand: function(callback) {
         if (cmdSubscriptions.length === 0) {
             // subscribe to __commands channel__
-            cmd.subscribe('commands');
+            //cmd.subscribe('commands');
         }
         cmdSubscriptions.push(callback);
         console.log(colors.blue('hub -- command subscribers: ' + cmdSubscriptions.length));
@@ -27,13 +27,13 @@ module.exports = {
     emitEvent: function(event) {
         console.log(colors.blue('\nhub -- publishing event ' + event.event + ' to redis:'));
         console.log(event);
-        evt.publish('events', JSON.stringify(event));
+        //evt.publish('events', JSON.stringify(event));
     },
 
     onEvent: function(callback) {
         if (evtSubscriptions.length === 0) {
             // subscribe to __events channel__
-            evt.subscribe('events');
+            //evt.subscribe('events');
         }
         evtSubscriptions.push(callback);
         console.log(colors.blue('hub -- event subscribers: ' + evtSubscriptions.length));
@@ -42,6 +42,7 @@ module.exports = {
 };
 
 // listen to events from redis and call each callback from subscribers
+/*
 evt.on('message', function(channel, message) {
 
     var event = JSON.parse(message);
@@ -57,8 +58,9 @@ evt.on('message', function(channel, message) {
 
     }
 });
-
+  */
 // listen to commands from redis and call each callback from subscribers
+/*
 cmd.on('message', function(channel, message) {
 
     var command = JSON.parse(message);
@@ -74,3 +76,4 @@ cmd.on('message', function(channel, message) {
 
     }
 });
+    */
