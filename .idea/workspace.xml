@@ -20,10 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="msgbus.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="msgbus.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msgbus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="343" selection-end="343" vertical-scroll-proportion="0.46195653">
+            <state line="14" column="13" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -41,7 +41,7 @@
       <file leaf-file-name="logger.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+            <state line="5" column="12" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node_modules/redis/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="511" column="19" selection-start="16355" selection-end="16355" vertical-scroll-proportion="0.6939394">
               <folding />
             </state>
           </provider>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/host/app/views/index.jade" />
         <option value="$PROJECT_DIR$/host/public/js/app.js" />
         <option value="$PROJECT_DIR$/msgbus.js" />
-        <option value="$PROJECT_DIR$/logger.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/logger.js" />
       </list>
     </option>
   </component>
@@ -439,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/redis/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="28" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
@@ -453,16 +446,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logger.js">
+    <entry file="file://$PROJECT_DIR$/msgbus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msgbus.js">
+    <entry file="file://$PROJECT_DIR$/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="343" selection-end="343" vertical-scroll-proportion="0.46195653">
+        <state line="5" column="12" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/redis/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="511" column="19" selection-start="16355" selection-end="16355" vertical-scroll-proportion="0.6939394">
           <folding />
         </state>
       </provider>
