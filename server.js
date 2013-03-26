@@ -1,11 +1,5 @@
-var http = require('http');
-var port = process.env.port || 1337;
-http.createServer(function(req, res){
-    res.writeHead(200, {'Content-Type':'text/plain'});
-    res.end('Hello World\n');
-}).listen(port);
 
-/*
+
 // server.js is the starting point of the host process:
 //
 // `node server.js` 
@@ -99,9 +93,8 @@ repository.init(options.repository, function(err) {
         });
 
         // START LISTENING
-        var port = 3000;
+        var port = process.env.port || 1337;
         console.log(colors.cyan('\nStarting server on port ' + port));
         server.listen(port);
     });
 });
-    */
