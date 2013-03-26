@@ -23,7 +23,7 @@
       <file leaf-file-name="msgbus.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/msgbus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="27" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+            <state line="10" column="17" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -32,7 +32,7 @@
       <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="33" selection-start="2851" selection-end="2851" vertical-scroll-proportion="0.0">
+            <state line="88" column="15" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,19 +65,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/host/app/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="28" selection-start="850" selection-end="850" vertical-scroll-proportion="0.4456522">
+            <state line="18" column="22" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/host/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="36" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
+            <state line="36" column="18" selection-start="940" selection-end="940" vertical-scroll-proportion="0.1887324">
               <folding />
             </state>
           </provider>
@@ -133,11 +133,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/node_modules/redis/index.js" />
-        <option value="$PROJECT_DIR$/msgbus.js" />
         <option value="$PROJECT_DIR$/host/app/routes.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/host/app/views/index.jade" />
         <option value="$PROJECT_DIR$/host/public/js/app.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/msgbus.js" />
       </list>
     </option>
   </component>
@@ -486,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/msgbus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/redis/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="507" column="21" selection-start="16132" selection-end="16132" vertical-scroll-proportion="-6.44">
@@ -507,16 +500,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://D:/bin/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="33" selection-start="2851" selection-end="2851" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5244565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/bin/index.jade">
+    <entry file="file://$PROJECT_DIR$/host/app/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5244565">
+        <state line="18" column="22" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -528,16 +521,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/host/public/js/app.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="36" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
+        <state line="88" column="15" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/host/app/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/msgbus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="28" selection-start="850" selection-end="850" vertical-scroll-proportion="0.4456522">
+        <state line="10" column="17" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/host/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="18" selection-start="940" selection-end="940" vertical-scroll-proportion="0.1887324">
           <folding />
         </state>
       </provider>

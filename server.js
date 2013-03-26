@@ -89,7 +89,7 @@ repository.init(options.repository, function(err) {
                 console.log(data);
 
                 msgbus.emitCommand(data);
-                io.sockets.emit('events', 'data from server');
+                //io.sockets.emit('events', 'data from server');
             });
         });
 

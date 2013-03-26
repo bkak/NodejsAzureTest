@@ -3,7 +3,7 @@
 var redis = require('redis')
  var colors = require('./colors')
   , cmd = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
-//, evt = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
+, evt = redis.createClient(63932, "ubnodejsredis.cloudapp.net")
 , evtSubscriptions = []
   , cmdSubscriptions = [];
 
@@ -27,13 +27,13 @@ module.exports = {
     emitEvent: function(event) {
         console.log(colors.blue('\nhub -- publishing event ' + event.event + ' to redis:'));
         console.log(event);
-        //evt.publish('events', JSON.stringify(event));
+        evt.publish('events', JSON.stringify(event));
     },
 
     onEvent: function(callback) {
         if (evtSubscriptions.length === 0) {
             // subscribe to __events channel__
-            //evt.subscribe('events');
+            evt.subscribe('events');
         }
         evtSubscriptions.push(callback);
         console.log(colors.blue('hub -- event subscribers: ' + evtSubscriptions.length));
@@ -42,7 +42,7 @@ module.exports = {
 };
 
 // listen to events from redis and call each callback from subscribers
-/*
+
 evt.on('message', function(channel, message) {
 
     var event = JSON.parse(message);
@@ -58,7 +58,7 @@ evt.on('message', function(channel, message) {
 
     }
 });
-  */
+
 // listen to commands from redis and call each callback from subscribers
 
 cmd.on('message', function(channel, message) {
