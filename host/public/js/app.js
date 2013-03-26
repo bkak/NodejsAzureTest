@@ -37,7 +37,7 @@
     // ------------------------------------
 
     // create a socket.io connection
-    var socket = io.connect('http://nodejsazuretest.azurewebsites.net:1337');
+    var socket = io.connect('http://nodejsazuretest.azurewebsites.net');
     
     // on receiving an event from the server via socket.io 
     // forward it to backbone.CQRS.hub
